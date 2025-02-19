@@ -5,8 +5,8 @@ import HeroMobile from "../assets/images/image-web-3-mobile.jpg"
 const HeroSection = () => {
     return (
       <section className="md:mt-10">
-        <img src={HeroDesktop} alt="Hero" className=" hidden md:flex  w-full rounded-lg " />
-        <img src={HeroMobile} alt="Hero" className="md:hidden w-full rounded-lg" />
+        <img src={HeroDesktop} alt="Hero" className=" hidden md:flex  w-full  " />
+        <img src={HeroMobile} alt="Hero" className="md:hidden w-full " />
         <div className="flex items-center justify-between  gap-20 mt-6">
 
         <div className="w-3/5">
