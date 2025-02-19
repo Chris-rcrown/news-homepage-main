@@ -3,7 +3,7 @@ import { ArticleCardData } from "../data/ArticleCardData";
 
  const ArticleCard = () => {
     return (
-      <div className="flex justify-even items-center  gap-3">
+      <div className="flex flex-col md:flex-row justify-even items-center  gap-3">
         {ArticleCardData.map((data, index) =>(
 
         <div key={index} className="flex justify-between gap-3 ">

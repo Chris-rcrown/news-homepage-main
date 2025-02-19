@@ -1,7 +1,7 @@
 // Sidebar Component
 const Sidebar = () => {
     return (
-      <aside className="bg-[#00001a] text-white p-6 rounded-lg mt-10 md: mt-0 h-auto">
+      <aside className="bg-[#00001a] text-white p-6 rounded-lg mt-6 md: mt-10 h-auto">
         <h3 className="text-yellow-400 text-xl font-bold">New</h3>
         <ul className="mt-4 space-y-4 flex flex-col justify-even">
           <li className="border-b pb-2">

@@ -5,7 +5,7 @@ import Articles from "./components/Articles";
 
 const App = () => {
   return (
-    <div className="bg-[#FAFAFA] text-[#0D0D0D] font-sans lg: px-100 mt-5 md:">
+    <div className="bg-[#FAFAFA] text-[#0D0D0D] font-sans lg:px-100 mt-2 md:mt-5 p-4 ">
       <Navbar />
       <div className=" mx-auto  mt-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

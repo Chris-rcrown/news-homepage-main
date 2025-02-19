@@ -18,8 +18,12 @@ import MenuClose from "../assets/images//icon-menu-close.svg"
         <div>
 
             <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-                <img src={Menu} alt="menu" />
-                <img src={MenuClose} alt="menuClose" />
+                {isOpen ? 
+                (<img src={MenuClose} alt="menuClose" />) : (
+                    <img src={Menu} alt="menu" />
+                )
+            }
+
             </button>
             <ul className={`md:flex space-x-6 ${isOpen ? "block" : "hidden"} absolute md:static top-16 left-0 w-full bg-white md:bg-transparent p-4 md:p-0 shadow-none gap-10`}>
             <li className="cursor-pointer">Home</li>
